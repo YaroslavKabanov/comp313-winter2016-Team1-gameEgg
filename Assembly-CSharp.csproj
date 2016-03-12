@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{1EF5EE7B-27C9-3400-BBDC-6DF731CB3FE6}</ProjectGuid>
+	<ProjectGuid>{CCC3C403-21F8-85F8-84A5-1AE71317AB08}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,7 +45,23 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Clouds.cs" />
+     <Compile Include="Assets\Scripts\CountDown.cs" />
+     <Compile Include="Assets\Scripts\Egg.cs" />
+     <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\FollowCam.cs" />
+     <Compile Include="Assets\Scripts\Generator.cs" />
+     <Compile Include="Assets\Scripts\HurtPlayerOnContact.cs" />
+     <Compile Include="Assets\Scripts\LiveManager.cs" />
+     <Compile Include="Assets\Scripts\MenuEgg.cs" />
+     <Compile Include="Assets\Scripts\OkbtnPressed.cs" />
+     <Compile Include="Assets\Scripts\PlayBtn.cs" />
+     <Compile Include="Assets\Scripts\PlayerCamera.cs" />
+     <Compile Include="Assets\Scripts\ScoreManager.cs" />
+     <Compile Include="Assets\Scripts\Seed.cs" />
      <Compile Include="Assets\Scripts\Settings.cs" />
+     <Compile Include="Assets\Scripts\Speed.cs" />
+     <Compile Include="Assets\Scripts\SwipeHandler.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
