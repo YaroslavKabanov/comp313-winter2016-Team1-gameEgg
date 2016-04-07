@@ -20,7 +20,7 @@ public class LiveManager : MonoBehaviour {
 	void Update () {
 		liveTxt.text = "Live: " + Mathf.Round (lifeCounter);
 		if (lifeCounter == 0) {
-			Application.LoadLevel(0);
+			Application.LoadLevel(2);
 		}
 	}
 	public static void HurtPlayer(int damage){

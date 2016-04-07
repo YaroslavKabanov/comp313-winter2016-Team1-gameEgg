@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Speed {
-	private float speed = 10;
+	private float speed = 5;
 
 	public Speed(){
 	}
