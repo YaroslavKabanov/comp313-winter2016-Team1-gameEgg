@@ -1,18 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 public class Seed : MonoBehaviour {
 	private static int pointsToAdd = 1;
-	public AudioClip soundFile;
 	void OnTriggerEnter2D(Collider2D other){
 		if (other.gameObject.tag == "Player") {
-			ScoreManager.AddPoints (pointsToAdd);
-			Destroy(gameObject);
+			AudioSource audio = GetComponent<AudioSource>();
+			audio.Play();
+			ScoreManager.AddPoints(pointsToAdd);
+			GetComponent<SpriteRenderer>().enabled = false;
+			Destroy(gameObject,1f); //destroy object after 1 sec
 		}  
-
-	}
-	void Start () {
-		
 
 	}
 }

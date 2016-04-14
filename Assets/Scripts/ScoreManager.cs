@@ -26,7 +26,7 @@ public class ScoreManager : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void Update () {
-		seedScore.text = "Seeds: " + Mathf.Round (score);
+		seedScore.text = "" + Mathf.Round (score);
 		if (scoreIncresing) {
 
 			scoreCount += pointsPerSec * Time.deltaTime;
@@ -38,7 +38,7 @@ public class ScoreManager : MonoBehaviour {
 			highScoreCount = scoreCount;
 		}
 
-		scoreText.text = "Score: " + Mathf.Round(scoreCount);
+		scoreText.text = ""+Mathf.Round(scoreCount);
 		//highScore.text = "High Score: " + Mathf.Round(highScoreCount);
 
 	}

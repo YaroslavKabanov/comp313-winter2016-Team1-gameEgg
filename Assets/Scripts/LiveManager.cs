@@ -18,7 +18,7 @@ public class LiveManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		liveTxt.text = "Live: " + Mathf.Round (lifeCounter);
+		liveTxt.text = "" + Mathf.Round (lifeCounter);
 		if (lifeCounter == 0) {
 			Application.LoadLevel(2);
 		}
