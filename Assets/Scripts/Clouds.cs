@@ -30,8 +30,4 @@ public class Clouds : MonoBehaviour {
 		}
 
 	}
-	void Timer( float time){
-
-	}
-
 }

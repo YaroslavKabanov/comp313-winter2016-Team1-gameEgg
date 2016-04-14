@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CCC3C403-21F8-85F8-84A5-1AE71317AB08}</ProjectGuid>
+    <ProjectGuid>{FEC83A56-8ADE-0004-10C7-0E5FC26F4574}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\CountDown.cs" />
      <Compile Include="Assets\Scripts\Egg.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Fading.cs" />
      <Compile Include="Assets\Scripts\FollowCam.cs" />
      <Compile Include="Assets\Scripts\GameOver.cs" />
      <Compile Include="Assets\Scripts\Generator.cs" />
@@ -56,6 +57,7 @@
      <Compile Include="Assets\Scripts\LiveManager.cs" />
      <Compile Include="Assets\Scripts\MenuEgg.cs" />
      <Compile Include="Assets\Scripts\OkbtnPressed.cs" />
+     <Compile Include="Assets\Scripts\Pause.cs" />
      <Compile Include="Assets\Scripts\PlayBtn.cs" />
      <Compile Include="Assets\Scripts\PlayerCamera.cs" />
      <Compile Include="Assets\Scripts\ScoreManager.cs" />
