@@ -28,4 +28,8 @@ public class Pause : MonoBehaviour {
 		paused = false;
 		pauseMenu.SetActive(false);
 	}
+	public void Menu(){
+		Application.LoadLevel(0);
+	}
+
 }
